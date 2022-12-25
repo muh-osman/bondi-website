@@ -8,7 +8,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 5000px;
+    /* height: 5000px; */
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Start Navbar */
@@ -91,7 +95,7 @@ body {
 .features .icon-holder svg {
     left: 50%;
     transform: translateX(-50%);
-    
+
 }
 
 .features .icon-holder .number {
@@ -156,4 +160,92 @@ body {
 /* Stuff */
 .stuff .description {
     max-width: 500px;
+}
+
+/* Team */
+.team {
+    background-color: var(--section-color);
+}
+
+.team h2 {
+    color: var(--yellow-color);
+}
+
+.team .box h4 {
+    background-color: var(--green-color);
+}
+
+/* Techs */
+
+/* Project */
+.project {
+    background-color: var(--dark-color);
+}
+
+/* Blog */
+
+/* Subscribe */
+.subscribe {
+    background-color: var(--yellow-color);
+}
+
+.subscribe input[type='email'] {
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.subscribe input[type='email']::placeholder {
+    color: #fff;
+}
+
+.subscribe input[type='email']:focus {
+    outline: none;
+}
+
+.subscribe input[type='submit'] {
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-color);
+}
+
+.footer .name {
+    color: var(--green-color);
+}
+
+.footer .inc {
+    color: var(--yellow-color);
+}
+
+.links ul li a {
+    color: rgba(255, 255, 255, .5);
+}
+
+.links ul li a:hover {
+    color: var(--green-color);
+}
+
+.footer .contact ul svg {
+    width: 20px;
+    height: 20px;
+    transition: .2s;
+}
+
+.footer .github:hover {
+    color: #000;
+}
+
+.footer .twitter:hover {
+    color: #1da1f2;
+}
+
+.footer .linkedin:hover {
+    color: #0077b5;
+}
+
+.footer .youtube:hover {
+    color: #ff0000;
 }
